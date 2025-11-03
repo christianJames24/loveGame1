@@ -3,6 +3,10 @@ function love.load()
    love.graphics.setNewFont(12)
    love.graphics.setColor(255,255,255)
    love.graphics.setBackgroundColor(0,0,0)
+   image2 = love.graphics.newImage("Images/501.png")
+   love.graphics.setNewFont(12)
+   love.graphics.setColor(255,255,255)
+   love.graphics.setBackgroundColor(0,0,0)
 end
 
 xWalk = 0
@@ -20,6 +24,9 @@ function love.update(dt)
    -- if love.keyboard.isDown("a") or love.keyboard.isDown("left") then
    --  xWalk = xWalk - 2
    -- end
+   if love.keyboard.isDown("space") then
+      
+   end
 
    penis = love.mouse.getPosition( )
    piplupX = love.mouse.getX()
