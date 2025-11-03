@@ -32,12 +32,12 @@ end
 
 function love.draw()
    love.graphics.draw(image, xWalk, yWalk, 0, 0.5)
-   -- love.graphics.print("Click and drag oshashit around or use the arrow keys", 10, 10)
+   love.graphics.print("move mouse pls", 100, 10)
    -- love.graphics.print(love.mouse.getPosition(),10,10)
    love.graphics.print(piplupxd, 10,10)
 end
 
 function love.conf(t)
-    t.window.width = 1024
-    t.window.height = 768
+    t.window.width = 854
+    t.window.height = 480
 end
